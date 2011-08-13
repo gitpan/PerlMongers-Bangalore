@@ -11,7 +11,7 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'We are the Bangalore Perl Mongers, find us at all the places listed below!
 If you are in or around Bangalore near the first week of a month, do drop by for our meetups listed 
-at bangalore.pm.org',
+at bangalore.pm.org. Discuss this module at L<Bangalore.pm discussion page for this module|http://bangalore.pm.org/forum/6-module-plugins-frameworks-and-downloads/52-perlmongersbangalore.html>',
   'AUTHOR' => 'Shantanu Bhadoria <shantanu at cpan dott org>',
   'BUILD_REQUIRES' => {
     'Test::More' => '0.47'
@@ -27,7 +27,7 @@ at bangalore.pm.org',
     'Acme::CPANAuthors' => '0',
     'Acme::CPANAuthors::Register' => '0'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }

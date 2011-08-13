@@ -1,5 +1,5 @@
 ---
-abstract: "We are the Bangalore Perl Mongers, find us at all the places listed below!\nIf you are in or around Bangalore near the first week of a month, do drop by for our meetups listed \nat bangalore.pm.org"
+abstract: "We are the Bangalore Perl Mongers, find us at all the places listed below!\nIf you are in or around Bangalore near the first week of a month, do drop by for our meetups listed \nat bangalore.pm.org. Discuss this module at L<Bangalore.pm discussion page for this module|http://bangalore.pm.org/forum/6-module-plugins-frameworks-and-downloads/52-perlmongersbangalore.html>"
 author:
   - 'Shantanu Bhadoria <shantanu at cpan dott org>'
 build_requires:
@@ -24,5 +24,5 @@ resources:
   homepage: https://github.com/shantanubhadoria/PerlMongers--Bangalore
   license: http://dev.perl.org/licenses/
   repository: git://github.com/shantanubhadoria/perlmongers-bangalore.git
-version: 0.02
+version: 0.03
 x_authority: cpan:SHANTANU

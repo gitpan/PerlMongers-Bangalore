@@ -3,7 +3,7 @@ BEGIN {
   $PerlMongers::Bangalore::AUTHORITY = 'cpan:SHANTANU';
 }
 BEGIN {
-  $PerlMongers::Bangalore::VERSION = '0.02';
+  $PerlMongers::Bangalore::VERSION = '0.03';
 }
 
 use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
@@ -30,7 +30,7 @@ __END__
 
 PerlMongers::Bangalore - We are the Bangalore Perl Mongers, find us at all the places listed below!
 If you are in or around Bangalore near the first week of a month, do drop by for our meetups listed 
-at bangalore.pm.org
+at bangalore.pm.org. Discuss this module at L<Bangalore.pm discussion page for this module|http://bangalore.pm.org/forum/6-module-plugins-frameworks-and-downloads/52-perlmongersbangalore.html>
 
 =head1 SYNOPSIS
 
