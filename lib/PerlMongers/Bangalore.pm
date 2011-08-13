@@ -3,7 +3,7 @@ BEGIN {
   $PerlMongers::Bangalore::AUTHORITY = 'cpan:SHANTANU';
 }
 BEGIN {
-  $PerlMongers::Bangalore::VERSION = '0.01';
+  $PerlMongers::Bangalore::VERSION = '0.02';
 }
 
 use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
@@ -74,7 +74,7 @@ by the Free Software Foundation; or the Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
 
-=head1 Dependencies 
+=head1 DEPENDENCIES 
 
 L<Exporter>
 

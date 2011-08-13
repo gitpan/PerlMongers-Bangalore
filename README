@@ -39,7 +39,7 @@ COPYRIGHT AND LICENSE
 
     See http://dev.perl.org/licenses/ for more information.
 
-Dependencies
+DEPENDENCIES
     Exporter
 
     "Perl"
