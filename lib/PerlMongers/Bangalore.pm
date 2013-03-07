@@ -1,10 +1,4 @@
 package PerlMongers::Bangalore;
-BEGIN {
-  $PerlMongers::Bangalore::AUTHORITY = 'cpan:SHANTANU';
-}
-BEGIN {
-  $PerlMongers::Bangalore::VERSION = '0.03';
-}
 
 use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
 
@@ -17,8 +11,20 @@ require Exporter;
 @EXPORT_OK = qw(Perl_Mongers);
 
 #======================================================================
+# PODNAME: PerlMongers::Bangalore
+# ABSTRACT: We are the Bangalore Perl Mongers
+#
+# This file is part of PerlMongers-Bangalore
+#
+# This software is copyright (c) 2013 by Shantanu Bhadoria.
+#
+# This is free software; you can redistribute it and/or modify it under
+# the same terms as the Perl 5 programming language system itself.
+#
+our $VERSION = '0.04'; # VERSION
+
 sub info {
-  system( 'perldoc', __PACKAGE__ );
+    system( 'perldoc', __PACKAGE__ );
 }
 
 #======================================================================
@@ -26,11 +32,15 @@ sub info {
 
 __END__
 
+=pod
+
 =head1 NAME
 
-PerlMongers::Bangalore - We are the Bangalore Perl Mongers, find us at all the places listed below!
-If you are in or around Bangalore near the first week of a month, do drop by for our meetups listed 
-at bangalore.pm.org. Discuss this module at L<Bangalore.pm discussion page for this module|http://bangalore.pm.org/forum/6-module-plugins-frameworks-and-downloads/52-perlmongersbangalore.html>
+PerlMongers::Bangalore - We are the Bangalore Perl Mongers
+
+=head1 VERSION
+
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -62,22 +72,57 @@ http://mail.pm.org/mailman/listinfo/bangalore-pm
 
 http://mail.pm.org/pipermail/bangalore-pm/
 
+C<Perl>
+
+=head1 NAME
+
+PerlMongers::Bangalore - We are the Bangalore Perl Mongers, find us at all the 
+places listed below! If you are in or around Bangalore near the first week of a 
+month, do drop by for our meetups listed at bangalore.pm.org. Discuss this 
+module at L<Bangalore.pm discussion page for this module|http://bangalore.pm.org/forum/6-module-plugins-frameworks-and-downloads/52-perlmongersbangalore.html>
+
+=for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
+
+=head1 SUPPORT
+
+=head2 Bugs / Feature Requests
+
+Please report any bugs or feature requests through github at 
+L<https://github.com/shantanubhadoria/perlmongers-bangalore/issues>.
+You will be notified automatically of any progress on your issue.
+
+=head2 Source Code
+
+This is open source software.  The code repository is available for
+public review and contribution under the terms of the license.
+
+L<https://github.com/shantanubhadoria/perlmongers-bangalore>
+
+  git clone git://github.com/shantanubhadoria/perlmongers-bangalore.git
+
+=head1 AUTHOR
+
+Shantanu Bhadoria <shantanu at cpan dott org>
+
+=head1 CONTRIBUTORS
+
+=over 4
+
+=item *
+
+Shantanu Bhadoria <shantanu.bhadoria@gmail.com>
+
+=item *
+
+Shantanu Bhadoria <shantanu@cpan.org>
+
+=back
+
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011 Shantanu Bhadoria  
+This software is copyright (c) 2013 by Shantanu Bhadoria.
 
-C<< <shantanu (dot comes here) bhadoria at gmail dot com> >> L<http://www.shantanubhadoria.com>
-
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-See http://dev.perl.org/licenses/ for more information.
-
-=head1 DEPENDENCIES 
-
-L<Exporter>
-
-C<Perl>
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

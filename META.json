@@ -1,12 +1,12 @@
 {
-   "abstract" : "We are the Bangalore Perl Mongers, find us at all the places listed below!\nIf you are in or around Bangalore near the first week of a month, do drop by for our meetups listed \nat bangalore.pm.org. Discuss this module at L<Bangalore.pm discussion page for this module|http://bangalore.pm.org/forum/6-module-plugins-frameworks-and-downloads/52-perlmongersbangalore.html>",
+   "abstract" : "We are the Bangalore Perl Mongers",
    "author" : [
       "Shantanu Bhadoria <shantanu at cpan dott org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001",
+   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
    "license" : [
-      "gpl_3"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -15,7 +15,13 @@
    "name" : "PerlMongers-Bangalore",
    "no_index" : {
       "directory" : [
-         "xt"
+         "t",
+         "xt",
+         "examples",
+         "corpus"
+      ],
+      "package" : [
+         "DB"
       ]
    },
    "prereqs" : {
@@ -24,35 +30,56 @@
             "ExtUtils::MakeMaker" : "6.30"
          }
       },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::CPAN::Meta" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08"
+         }
+      },
       "runtime" : {
          "requires" : {
-            "Acme::CPANAuthors" : 0,
-            "Acme::CPANAuthors::Register" : 0
+            "Exporter" : "0",
+            "perl" : "5.006",
+            "strict" : "0",
+            "vars" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.47"
+            "ExtUtils::MakeMaker" : "0",
+            "File::Find" : "0",
+            "File::Spec::Functions" : "0",
+            "File::Temp" : "0",
+            "List::Util" : "0",
+            "Test::More" : "0"
          }
+      }
+   },
+   "provides" : {
+      "PerlMongers::Bangalore" : {
+         "file" : "lib/PerlMongers/Bangalore.pm",
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "mailto" : "bug-PerlMongers-Bangalore@rt.cpan.org",
-         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=PerlMongers-Bangalore"
+         "web" : "https://github.com/shantanubhadoria/perlmongers-bangalore/issues"
       },
-      "homepage" : "https://github.com/shantanubhadoria/PerlMongers--Bangalore",
-      "license" : [
-         "http://dev.perl.org/licenses/"
-      ],
+      "homepage" : "https://metacpan.org/release/PerlMongers-Bangalore",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/shantanubhadoria/perlmongers-bangalore.git",
-         "web" : "http://github.com/shantanubhadoria/perlmongers-bangalore"
+         "web" : "https://github.com/shantanubhadoria/perlmongers-bangalore"
       }
    },
-   "version" : "0.03",
-   "x_authority" : "cpan:SHANTANU"
+   "version" : "0.04",
+   "x_contributors" : [
+      "Shantanu Bhadoria <shantanu.bhadoria@gmail.com>",
+      "Shantanu Bhadoria <shantanu@cpan.org>"
+   ]
 }
 

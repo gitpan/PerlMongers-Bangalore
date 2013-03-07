@@ -2,34 +2,39 @@
 use strict;
 use warnings;
 
-
+use 5.006;
 
 use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'We are the Bangalore Perl Mongers, find us at all the places listed below!
-If you are in or around Bangalore near the first week of a month, do drop by for our meetups listed 
-at bangalore.pm.org. Discuss this module at L<Bangalore.pm discussion page for this module|http://bangalore.pm.org/forum/6-module-plugins-frameworks-and-downloads/52-perlmongersbangalore.html>',
-  'AUTHOR' => 'Shantanu Bhadoria <shantanu at cpan dott org>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0.47'
+  "ABSTRACT" => "We are the Bangalore Perl Mongers",
+  "AUTHOR" => "Shantanu Bhadoria <shantanu at cpan dott org>",
+  "BUILD_REQUIRES" => {
+    "ExtUtils::MakeMaker" => 0,
+    "File::Find" => 0,
+    "File::Spec::Functions" => 0,
+    "File::Temp" => 0,
+    "List::Util" => 0,
+    "Test::More" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'PerlMongers-Bangalore',
-  'EXE_FILES' => [],
-  'LICENSE' => 'gpl',
-  'NAME' => 'PerlMongers::Bangalore',
-  'PREREQ_PM' => {
-    'Acme::CPANAuthors' => '0',
-    'Acme::CPANAuthors::Register' => '0'
+  "DISTNAME" => "PerlMongers-Bangalore",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "PerlMongers::Bangalore",
+  "PREREQ_PM" => {
+    "Exporter" => 0,
+    "strict" => 0,
+    "vars" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.03',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.04",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
