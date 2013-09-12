@@ -21,7 +21,7 @@ require Exporter;
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
 #
-our $VERSION = '0.04'; # VERSION
+our $VERSION = '0.05'; # VERSION
 
 sub info {
     system( 'perldoc', __PACKAGE__ );
@@ -40,7 +40,7 @@ PerlMongers::Bangalore - We are the Bangalore Perl Mongers
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
@@ -107,6 +107,10 @@ Shantanu Bhadoria <shantanu at cpan dott org>
 =head1 CONTRIBUTORS
 
 =over 4
+
+=item *
+
+Shantanu <shantanu@cpan.org>
 
 =item *
 

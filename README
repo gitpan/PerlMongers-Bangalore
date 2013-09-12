@@ -2,7 +2,7 @@ NAME
     PerlMongers::Bangalore - We are the Bangalore Perl Mongers
 
 VERSION
-    version 0.04
+    version 0.05
 
 SYNOPSIS
         use PerlMongers::Bangalore qw(info);
@@ -56,6 +56,8 @@ AUTHOR
     Shantanu Bhadoria <shantanu at cpan dott org>
 
 CONTRIBUTORS
+    *   Shantanu <shantanu@cpan.org>
+
     *   Shantanu Bhadoria <shantanu.bhadoria@gmail.com>
 
     *   Shantanu Bhadoria <shantanu@cpan.org>
