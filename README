@@ -2,7 +2,7 @@ NAME
     PerlMongers::Bangalore - We are the Bangalore Perl Mongers
 
 VERSION
-    version 0.05
+    version 0.06
 
 SYNOPSIS
         use PerlMongers::Bangalore qw(info);
@@ -28,6 +28,11 @@ SYNOPSIS
     http://mail.pm.org/pipermail/bangalore-pm/
 
     "Perl"
+
+METHODS
+  info
+    Returns information about the Bangalore Perl Mongers. At this time it
+    returns the perl pod of this module
 
 NAME
     PerlMongers::Bangalore - We are the Bangalore Perl Mongers, find us at

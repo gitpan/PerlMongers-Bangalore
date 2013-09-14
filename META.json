@@ -18,7 +18,8 @@
          "t",
          "xt",
          "examples",
-         "corpus"
+         "corpus",
+         "inc"
       ],
       "package" : [
          "DB"
@@ -41,7 +42,7 @@
       "runtime" : {
          "requires" : {
             "Exporter" : "0",
-            "perl" : "5.006",
+            "perl" : "5.010000",
             "strict" : "0",
             "vars" : "0",
             "warnings" : "0"
@@ -61,7 +62,7 @@
    "provides" : {
       "PerlMongers::Bangalore" : {
          "file" : "lib/PerlMongers/Bangalore.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
@@ -76,7 +77,7 @@
          "web" : "https://github.com/shantanubhadoria/perlmongers-bangalore"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_contributors" : [
       "Shantanu <shantanu@cpan.org>",
       "Shantanu Bhadoria <shantanu.bhadoria@gmail.com>",

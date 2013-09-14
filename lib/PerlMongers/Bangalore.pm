@@ -21,7 +21,11 @@ require Exporter;
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
 #
-our $VERSION = '0.05'; # VERSION
+our $VERSION = '0.06'; # VERSION
+
+# Dependencies
+use 5.010000;
+
 
 sub info {
     system( 'perldoc', __PACKAGE__ );
@@ -40,7 +44,7 @@ PerlMongers::Bangalore - We are the Bangalore Perl Mongers
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 SYNOPSIS
 
@@ -73,6 +77,12 @@ http://mail.pm.org/mailman/listinfo/bangalore-pm
 http://mail.pm.org/pipermail/bangalore-pm/
 
 C<Perl>
+
+=head1 METHODS
+
+=head2 info
+
+Returns information about the Bangalore Perl Mongers. At this time it returns the perl pod of this module
 
 =head1 NAME
 
