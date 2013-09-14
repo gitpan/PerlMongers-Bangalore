@@ -2,7 +2,7 @@ NAME
     PerlMongers::Bangalore - We are the Bangalore Perl Mongers
 
 VERSION
-    version 0.06
+    version 0.07
 
 SYNOPSIS
         use PerlMongers::Bangalore qw(info);

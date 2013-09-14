@@ -21,7 +21,7 @@ require Exporter;
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
 #
-our $VERSION = '0.06'; # VERSION
+our $VERSION = '0.07'; # VERSION
 
 # Dependencies
 use 5.010000;
@@ -44,7 +44,7 @@ PerlMongers::Bangalore - We are the Bangalore Perl Mongers
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 

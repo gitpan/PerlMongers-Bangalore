@@ -30,7 +30,7 @@ no_index:
 provides:
   PerlMongers::Bangalore:
     file: lib/PerlMongers/Bangalore.pm
-    version: 0.06
+    version: 0.07
 requires:
   Exporter: 0
   perl: 5.010000
@@ -41,7 +41,7 @@ resources:
   bugtracker: https://github.com/shantanubhadoria/perlmongers-bangalore/issues
   homepage: https://metacpan.org/release/PerlMongers-Bangalore
   repository: git://github.com/shantanubhadoria/perlmongers-bangalore.git
-version: 0.06
+version: 0.07
 x_contributors:
   - 'Shantanu <shantanu@cpan.org>'
   - 'Shantanu Bhadoria <shantanu.bhadoria@gmail.com>'
